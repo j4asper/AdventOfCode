@@ -15,16 +15,16 @@ def submarine_controller(commands:list):
     
     for command in commands:
         command, amount = command.split(" ")
+        amount = int(amount)
         match command:
             case "forward":
-                horizontal_position += int(amount)
+                horizontal_position += amount
             case "up":
-                depth -= int(amount)
+                depth -= amount
             case "down":
-                depth += int(amount)
+                depth += amount
     
     return horizontal_position, depth
-        
         
 
 
