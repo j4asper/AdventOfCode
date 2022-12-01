@@ -12,9 +12,9 @@ This reporsitory is dedicated to my solutions of the different challenges. I usu
 
 ## Progress
 
-Total Stars: 6
+Total Stars: 8
 
-- [ ] [2022](https://adventofcode.com/2022)
+- [ ] [2022](https://adventofcode.com/2022) - 2 Stars
 - [ ] [2021](https://adventofcode.com/2021) - 4 Stars
 - [ ] [2020](https://adventofcode.com/2020)
 - [ ] [2019](https://adventofcode.com/2019) - 2 Stars
