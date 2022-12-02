@@ -17,7 +17,7 @@ def find_largest_amount_of_calories(puzzle_input:list):
     return max(total_calories)
 
 if __name__ == "__main__":
-    # First convert the input data to a list of measurements.
+    # First convert the input data to a list of calorie amounts.
     with open("2022\\1\\input.txt", "r") as f:
         calories = f.readlines()
     
