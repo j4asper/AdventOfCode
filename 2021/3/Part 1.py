@@ -33,7 +33,7 @@ def calculate_power_consumption(binary_list:list):
     
 
 if __name__ == "__main__":
-    # First convert the input data to a list of binary numbers.
+    # First convert the input data to a list of binary numbers. Input is not sanitized, i realized when making part 2
     with open("2021\\3\\input.txt", "r") as f:
         binary_list = f.readlines()
     
