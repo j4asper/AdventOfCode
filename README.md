@@ -10,11 +10,13 @@ You don't need a computer science background to participate - just a little prog
 
 This reporsitory is dedicated to my solutions of the different challenges. I usually solve some challenges when I am bored. The goal is to complete all the challenges from 2015 and up.  
 
+All code in this repo is only tested in [Python](https://www.python.org/downloads/) 3.10.X  
+
 ## Progress
 
-Total Stars: 8
+Total Stars: 10
 
-- [ ] [2022](https://adventofcode.com/2022) - 4 Stars
+- [ ] [2022](https://adventofcode.com/2022) - 6 Stars
 - [ ] [2021](https://adventofcode.com/2021) - 4 Stars
 - [ ] [2020](https://adventofcode.com/2020)
 - [ ] [2019](https://adventofcode.com/2019)
