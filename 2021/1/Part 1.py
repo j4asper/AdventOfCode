@@ -16,9 +16,6 @@ def count_measurement_increases(measurements:list):
     return increases
 
 
-
-
-
 if __name__ == "__main__":
     # First convert the input data to a list of measurements.
     with open("2021\\1\\input.txt", "r") as f:
