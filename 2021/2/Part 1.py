@@ -30,7 +30,8 @@ def submarine_controller(commands:list):
 
 if __name__ == "__main__":
     # First convert the input data to a list of commands.
-    with open("2021\\2\\input.txt", "r") as f:
+    from pathlib import Path
+    with open(Path(__file__).parent.resolve() / "input.txt", "r") as f:
         commands = f.readlines()
     
     print("What do you get if you multiply your final horizontal position by your final depth?")

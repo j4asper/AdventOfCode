@@ -24,7 +24,8 @@ def find_sum_of_3_largest_amounts_of_calories(puzzle_input:list):
 
 if __name__ == "__main__":
     # First convert the input data to a list of calorie amounts.
-    with open("2022\\1\\input.txt", "r") as f:
+    from pathlib import Path
+    with open(Path(__file__).parent.resolve() / "input.txt", "r") as f:
         calories = f.readlines()
     
     print("Find the top three Elves carrying the most Calories. How many Calories are those Elves carrying in total?")

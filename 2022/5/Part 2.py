@@ -66,7 +66,8 @@ def get_crates_on_top_of_each_stack(stacks_and_movements:list):
 
 if __name__ == "__main__":
     # First convert the input data to a list of stacks and movements.
-    with open("2022\\5\\input.txt", "r") as f:
+    from pathlib import Path
+    with open(Path(__file__).parent.resolve() / "input.txt", "r") as f:
         stacks_and_movements = f.readlines()
     
     print("After the rearrangement procedure completes, what crate ends up on top of each stack?")

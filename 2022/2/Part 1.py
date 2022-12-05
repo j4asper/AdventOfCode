@@ -55,7 +55,8 @@ def play_rock_paper_scissors(strategy_input:list):
 
 if __name__ == "__main__":
     # First convert the input data to a list of strategies.
-    with open("2022\\2\\input.txt", "r") as f:
+    from pathlib import Path
+    with open(Path(__file__).parent.resolve() / "input.txt", "r") as f:
         strategy_input = f.readlines()
     
     print("What would your total score be if everything goes exactly according to your strategy guide?")

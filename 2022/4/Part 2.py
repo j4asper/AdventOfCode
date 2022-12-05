@@ -25,7 +25,8 @@ def amount_of_overlapping_assignments(assignments:list):
 
 if __name__ == "__main__":
     # First convert the input data to a list of assignment strings.
-    with open("2022\\4\\input.txt", "r") as f:
+    from pathlib import Path
+    with open(Path(__file__).parent.resolve() / "input.txt", "r") as f:
         assignments = f.readlines()
     
     print("In how many assignment pairs do the ranges overlap?")

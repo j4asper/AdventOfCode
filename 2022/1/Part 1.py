@@ -18,7 +18,8 @@ def find_largest_amount_of_calories(puzzle_input:list):
 
 if __name__ == "__main__":
     # First convert the input data to a list of calorie amounts.
-    with open("2022\\1\\input.txt", "r") as f:
+    from pathlib import Path
+    with open(Path(__file__).parent.resolve() / "input.txt", "r") as f:
         calories = f.readlines()
     
     print("Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?")

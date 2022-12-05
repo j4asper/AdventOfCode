@@ -18,7 +18,8 @@ def count_measurement_increases(measurements:list):
 
 if __name__ == "__main__":
     # First convert the input data to a list of measurements.
-    with open("2021\\1\\input.txt", "r") as f:
+    from pathlib import Path
+    with open(Path(__file__).parent.resolve() / "input.txt", "r") as f:
         measurements = [int(measurement) for measurement in f.readlines()]
     
     print("How many measurements are larger than the previous measurement?")

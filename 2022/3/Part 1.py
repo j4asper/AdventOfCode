@@ -27,7 +27,8 @@ def get_priority_sum(rucksacks:list):
 
 if __name__ == "__main__":
     # First convert the input data to a list of rucksack_content.
-    with open("2022\\3\\input.txt", "r") as f:
+    from pathlib import Path
+    with open(Path(__file__).parent.resolve() / "input.txt", "r") as f:
         rucksacks = f.readlines()
     
     print("Find the item type that appears in both compartments of each rucksack. What is the sum of the priorities of those item types?")

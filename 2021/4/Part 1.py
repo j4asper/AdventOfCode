@@ -63,7 +63,8 @@ def bingo_game(numbers:list, boards:dict):
 
 if __name__ == "__main__":
     # Load puzzle input.
-    with open("2021\\4\\input.txt", "r") as f:
+    from pathlib import Path
+    with open(Path(__file__).parent.resolve() / "input.txt", "r") as f:
         raw_bingo = f.read()
     numbers, boards = extract_boards_and_numbers(raw_bingo)
     used_numbers, board_number = bingo_game(numbers, boards)

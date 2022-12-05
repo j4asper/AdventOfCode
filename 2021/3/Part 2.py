@@ -53,7 +53,8 @@ def get_life_support_rating(binary_list:list):
 
 if __name__ == "__main__":
     # First convert the input data to a list of binary numbers.
-    with open("2021\\3\\input.txt", "r") as f:
+    from pathlib import Path
+    with open(Path(__file__).parent.resolve() / "input.txt", "r") as f:
         binary_list = [binary.strip() for binary in f.readlines()]
     
     print("What is the life support rating of the submarine?")    
