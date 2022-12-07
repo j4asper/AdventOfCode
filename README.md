@@ -14,7 +14,7 @@ All code in this repo is only tested in [Python](https://www.python.org/download
 
 ## How i typically solve the problems
 
-I start by reading the whole thing, after that, read it again and look at the examples they have made. Typically there will be example data. I will put this data in my input.txt and try to code the way that the example is explained. With the code, i can directly see if my program matches the example data and the solution to those. If it does, then i will get the real puzzle input and run it again, hopefully it works. If not, debug your way out of it somehow. Have fun.  
+I start by reading the whole thing, after that, read it again and look at the examples they have made. Typically there will be example data. I will put this data in my input.txt and try to code the way that the example is explained. With the code, I can directly see if my program matches the example data and the solution to those. If it does, then I will get the real puzzle input and run it again, hopefully it works. If not, debug your way out of it somehow. Have fun.  
 It may help you to look at others solutions, but i would advise against that if you have some experience in programming. But if you solve the problem, go ahead and look at other and probably better solutions.
 
 ## Progress
