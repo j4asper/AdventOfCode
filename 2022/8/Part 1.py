@@ -19,7 +19,7 @@ def get_tree_directions(data:list, line_index:int, index:int):
                     left.append(int(line_of_trees[i]))
                 else:
                     right.append(int(line_of_trees[i]))
-    
+                    
     return top, left, right, buttom
                 
     
