@@ -19,9 +19,9 @@ It may help you to look at others solutions, but i would advise against that if 
 
 ## Progress
 
-Total Stars: 21
+Total Stars: 23
 
-- [ ] [2022](https://adventofcode.com/2022) - 14 Stars
+- [ ] [2022](https://adventofcode.com/2022) - 16 Stars
 - [ ] [2021](https://adventofcode.com/2021) - 7 Stars
 - [ ] [2020](https://adventofcode.com/2020)
 - [ ] [2019](https://adventofcode.com/2019)
